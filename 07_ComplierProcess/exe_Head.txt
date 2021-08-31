@@ -10,6 +10,8 @@ Disassembly of section .text:
   401006:	66 2e 0f 1f 84 00 00 	nopw   %cs:0x0(%rax,%rax,1)
   40100d:	00 00 00 
 
+Kiet lac
+
 0000000000401010 <pre_c_init>:
   401010:	48 83 ec 28          	sub    $0x28,%rsp
   401014:	48 8b 05 45 34 00 00 	mov    0x3445(%rip),%rax        # 404460 <.refptr.mingw_initltsdrot_force>
