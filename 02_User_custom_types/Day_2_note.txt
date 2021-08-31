@@ -1,0 +1,61 @@
+
+
+
+User defined types (kiểu dữ liệu tự tạo)
+----------------------------------------
+
+typedef <source> <custom>
+	- <source>: kiểu dữ liệu gốc
+	- <custom>: tên kiểu dữ liệu mong muốn
+
+----------------------------------------
+Kiểu dữ liệu của C:
+char
+int
+float
+
+Vd: Quyển sách - Tên sách (chuoi), Tác giả (chuoi), Số Trang (int), năm sx (int), 
+	-> 100 quyển sách
+	
+	custom: struct
+			enum
+			union
+			
+	  <name>
+struct Book
+{
+    /* data */
+    char tenSach[20];
+    char tenSach[20];
+    int soTrang;
+    int namSX;
+};
+
+-> đưa dữ liệu thực tế, về dạng cơ bản sao cho chương trình ngắn gọn, dễ hiểu, dễ sửa chữa;
+
+*Khai báo kiểu dữ liệu trừu tượng về dạng cơ bản. lập trình thủ tục cho kiểu dự liệu đó -> lập trình thủ tục
+
+--------------------------------
+enum <kiểu>
+{
+	liệt kê,
+	...
+	
+};
+
+wrapper
+--------------------------------
+Bài Tập Chiêm Nghiệm:
+Viết chương trình xử lý đối tượng học sinh.
+Thuộc tính của học sinh tự định nghĩa.
+
+-> tạo các thủ tục để xử lý đối tượng học sinh.
+
+Mục đích lập trình
+1) Code sạch (dễ nhìn, dễ sửa, dễ hiểu)
+2) Hiệu suất
+3) Giấu được những phức tạp để người dùng vận hành
+
+Ngày 3:
+Cấu trúc bộ nhớ của C
+Con trỏ

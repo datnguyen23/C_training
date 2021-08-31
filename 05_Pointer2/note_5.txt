@@ -1,0 +1,9 @@
+1) pointer to struct
+2) pointer to function
+3) pointer as function parameter 
+
+function parameter : input / output
+<kiểu trả về> : output
+
+<kiểu trả về> <tên hàm> (<tham số>....);
+

@@ -1,0 +1,14 @@
+COMPILER PROCESS
+- why c code have run time execute better than other languges
+- better debug technique
+- better c code performance
+
+source files -> compile -> executable file/lib 
+.c           -> build   -> .exe / .hex
+
+https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#Overall-Options
+
+Preprocessor
+- running on build machine
+- parse the apprearence to define data
+

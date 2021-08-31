@@ -1,0 +1,34 @@
+Pointer
+--------------------------
+- trỏ tới 1 địa chỉ 
+
+1) reference - tham chiếu    - trỏ tới 1 địa chỉ   - <biến> = <giá trị>
+2) de-reference - tham trị   - chuyển dữ liệu trên địa chỉ (binary) -> về đạng mong muốn - *<biến>
+
+-----------
+<kiểu tham trị> * <tên con trỏ> = &<biến đích> or NULL (0)
+
+kiểu của con trỏ???? (size của con trỏ) - 4 bytes
+int *ptr1
+float * ptr2
+
+- size của con trỏ là cố định (= word)
+win64bit
+win32bit
+chrome 64 bit
+chrome 32 bit
+
+MCU 8 bit
+    16
+    24
+    32
+------------------
+con trỏ trỏ tới con trỏ
+------
+- rất mạnh
+- rất cẩn thận
+
+--------------------------
+1) con trỏ struct
+2) con trỏ vào hàm (con trỏ hàm)
+3) áp dụng con trỏ trongg hàm con

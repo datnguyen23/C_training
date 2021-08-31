@@ -1,0 +1,23 @@
+Pointer to struct
+
+Con trỏ: trỏ -> địa chỉ bộ nhớ (biến, hàm, register (thanh ghi)) 
+		- reference   - tham chiếu
+		- de-reference - tham trị
+
+Struct: kiểu dữ liệu do người dùng định nghĩa.
+	- đóng gói dữ liệu (trừu tượng hóa dữ liệu) 
+
+book 	- Tên sách     	: chuỗi
+		- Tác giả		: chuỗi
+		- Năm xuất bản	: Số nguyên
+		- Số Trang		: Số nguyên
+
+Pointer to function
+máy tính: -> gộp chung hàm
+	nhập 1 -> cộng
+	nhập 2 -> trừ
+	nhập 3 -> nhân
+	nhập 4 -> chia
+
+khai báo hàm <kiểu trả về> <tên hàm> (<danh sách tham số>)
+con trỏ hàm: <kiểu trả về> (*<tên con trỏ>) (<danh sách tham số>)

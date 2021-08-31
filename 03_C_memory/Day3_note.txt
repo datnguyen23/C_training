@@ -1,0 +1,35 @@
+
+C:
+1) Kiểu đữ liệu có sẵn: int, float, char - signed / unsigned (implicity cast/ exlicity cast) 
+2) Kiểu dữ liệu người dùng định nghĩa: struct, enum, union
+3) Memory layout C
+	-> pointer
+----------------------------------------------------
+Computer: MCU AVR8 - > arduino C++
+		- CPU central processing unit
+		- Memory: RAM, disk (ROM)
+		- Mother board: mainboard, MAIN
+		
+----------------------------------------------
+- RAM: bộ nhớ dùng dể tính toán -> speed: nhanh (RAM bus 3200mhz x 128) dữ liệu mất sau 1 power cycle
+- ROM: bộ nhớ dùng dể lưu trữ hướng dẫn lệnh or dữ liệu không mất sau 1 power cycle, speed: chậm
+	ssd: 2000mb/s
+	
+Các biến sử dụng trong C được khởi tạo và lưu trên RAM
+ một chương trình C dữ liệu trên RAM ntn?
+
+
+-----------------------------   0x00
+|			data			|
+ ---------------------------    0x0f
+|			heap			|
+|			  |				| 	leak memory
+|			  v				|
+-----------------------------
+|			  ^	 			|
+|			  |				|
+|			stack			|
+-----------------------------   0xff
+
+-> pointer biến đặc biệt -> giá trị lưu trữ: address
+
